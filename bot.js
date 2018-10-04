@@ -10,8 +10,8 @@ const queue = new Map();
 const ytdl = require('ytdl-core');
 const fs = require('fs');
 const gif = require("gif-search");
-const prefix = "1"
-const adminprefix = "1"
+const prefix = "5"
+const adminprefix = "5"
 /////////////////////////
 ////////////////////////
 //////////////////////
@@ -262,15 +262,15 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
 	
         ***__أوامر الموسيفة__***
 **
-1play - لتشغيل أغنية برآبط أو بأسم
-1come - حتى تثبت البوت بروم
-1skip - لتجآوز الأغنية الحآلية
-1pause - إيقآف الأغنية مؤقتا
-1resume - لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-1vol - لتغيير درجة الصوت 100 - 0』
-1stop - لإخرآج البوت من الروم
-1np - لمعرفة الأغنية المشغلة حآليا
-1queue - لمعرفة قآئمة التشغيل
+5play - لتشغيل أغنية برآبط أو بأسم
+5come - حتى تثبت البوت بروم
+5skip - لتجآوز الأغنية الحآلية
+5pause - إيقآف الأغنية مؤقتا
+5resume - لموآصلة الإغنية بعد إيقآفهآ مؤقتا
+5vol - لتغيير درجة الصوت 100 - 0』
+5stop - لإخرآج البوت من الروم
+5np - لمعرفة الأغنية المشغلة حآليا
+5queue - لمعرفة قآئمة التشغيل
 **
   
    
